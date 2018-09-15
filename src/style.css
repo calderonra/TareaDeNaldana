@@ -1,0 +1,48 @@
+.menuSuperior{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: inline;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.mensajeDeBienvenida{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+}
+
+.pm1{
+    margin: 0;
+}
+.pm{
+    margin-top: 20px;
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.submenu2 ul{
+    list-style-type: none ;
+    display: flex;
+    align-content: space-around;
+}
+
+.boton{
+    background-color: white;
+    border-radius: 0.5em;
+    text-align: center;
+    color:#87CEEB;
+    padding: 1em;
+    font-size: 24px;
+    border: 2px solid #87CEEB;
+}
+
+.articulo{
+    display: grid;
+    grid-template-columns: 50% 50%; 
+}
