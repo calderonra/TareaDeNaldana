@@ -6,10 +6,24 @@ ul{
     display: inline;
 }
 
+body{
+    background: #4b379a;
+    color: whitesmoke;
+}
 *{
     font-family: 'Roboto', sans-serif;
 }
+.pm{
+    font-family: 'Poppins', sans-serif;
 
+}
+
+h2{
+    font-size: 3em;
+}
+.doc{
+    padding: 10%;
+}
 .mensajeDeBienvenida{
     text-align: center;
     padding-top: 100px;
@@ -42,7 +56,21 @@ ul{
     border: 2px solid #87CEEB;
 }
 
+.boton :hover{
+    background-color: #4a7dce;
+}
+
 .articulo{
+    display: grid;
+    grid-template-columns: 50% 50%; 
+}
+
+.articulo2{
+    display: grid;
+    grid-template-columns: 50% 50%; 
+}
+
+.articulo3{
     display: grid;
     grid-template-columns: 50% 50%; 
 }
