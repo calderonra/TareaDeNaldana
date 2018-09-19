@@ -8,7 +8,7 @@ ul{
 
 body{
     background: #4b379a;
-    color: whitesmoke;
+    
 }
 *{
     font-family: 'Roboto', sans-serif;
@@ -28,6 +28,7 @@ h2{
     text-align: center;
     padding-top: 100px;
     padding-bottom: 50px;
+    background-color: pink;
 
 }
 
@@ -35,7 +36,7 @@ h2{
     margin: 0;
 }
 .pm{
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 4em;
     margin-bottom: 20px;
 }
@@ -62,15 +63,23 @@ h2{
 
 .articulo{
     display: grid;
+    background-color: whitesmoke;
     grid-template-columns: 50% 50%; 
 }
 
 .articulo2{
     display: grid;
     grid-template-columns: 50% 50%; 
+    background-image: url("..//img/parralax.jpg");
+    
 }
 
 .articulo3{
     display: grid;
+    background-color: whitesmoke;
     grid-template-columns: 50% 50%; 
+}
+
+.txt{
+    padding-left: 1em;
 }
