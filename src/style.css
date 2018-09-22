@@ -25,12 +25,21 @@ h2{
     padding: 10%;
     box-sizing: inherit;
 }
+
+.mensaje{
+    
+    background-image: url(/src/img/intro.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
 .mensajeDeBienvenida{
     text-align: center;
     padding-top: 100px;
     padding-bottom: 50px;
-    background-color: pink;
-
+    background-image: -webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
+    align-items: center;
 }
 
 .pm1{
@@ -119,7 +128,7 @@ h2{
 
 }
 .cont{
-    background-color: palevioletred;
+    background-image: -webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
 }
 form{
     display: block;
@@ -132,7 +141,7 @@ form{
     justify-content: center;    
     margin-bottom: 0;
     padding: 100px 0;
-    background-color: aliceblue;
+    background-color:whitesmoke;
 
 }
 .imagen3{
@@ -144,4 +153,11 @@ background-color: #333;
     justify-content: center;    
     margin-bottom: 6rem;
     padding: 100px 0;
+}
+
+
+.footer-social{
+    text-decoration: none;
+    text-decoration-line: none;
+    
 }
